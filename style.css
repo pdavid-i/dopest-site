@@ -28,6 +28,14 @@ body {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 800px) {
+	.grid-container {
+		flex-direction: revert;
+		width: auto;
+		background-color: lightblue;
+	}
+}
+
 .gif1 img {
 	padding-left: 100px;
 	padding-top: 40px;
